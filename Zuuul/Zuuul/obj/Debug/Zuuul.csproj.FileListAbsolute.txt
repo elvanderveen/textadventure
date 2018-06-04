@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\Periode 04\Rik\textadventure\src\zuul-cs\Zuuul\Zuuul\bin\Debug\Zuuul.exe.config
+C:\Users\user\Desktop\Periode 04\Rik\textadventure\src\zuul-cs\Zuuul\Zuuul\bin\Debug\Zuuul.exe
+C:\Users\user\Desktop\Periode 04\Rik\textadventure\src\zuul-cs\Zuuul\Zuuul\bin\Debug\Zuuul.pdb
+C:\Users\user\Desktop\Periode 04\Rik\textadventure\src\zuul-cs\Zuuul\Zuuul\obj\Debug\Zuuul.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Periode 04\Rik\textadventure\src\zuul-cs\Zuuul\Zuuul\obj\Debug\Zuuul.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Periode 04\Rik\textadventure\src\zuul-cs\Zuuul\Zuuul\obj\Debug\Zuuul.exe
+C:\Users\user\Desktop\Periode 04\Rik\textadventure\src\zuul-cs\Zuuul\Zuuul\obj\Debug\Zuuul.pdb
