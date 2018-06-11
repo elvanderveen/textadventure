@@ -5,14 +5,15 @@ namespace ZuulCS
 	public class Game
 	{
 		private Parser parser;
-		private Player player;
+		private Player player;  
 
 		public Game ()
 		{
-			createRooms();
+			
 			parser = new Parser();
-           // player = new Player();
-		}
+            player = new Player();
+            createRooms();
+        }
 
 		private void createRooms()
 		{
