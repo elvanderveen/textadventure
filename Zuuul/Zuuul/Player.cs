@@ -9,10 +9,10 @@ namespace ZuulCS
     class Player
     {
         private Room currentRoom;
-
+        public int health;
         public Player() {
-
-        
+            
+      
         }
 
         public Room setCurrentRoom(Room room)
