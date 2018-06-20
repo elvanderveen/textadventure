@@ -9,8 +9,20 @@ namespace ZuulCS
     class Player
     {
         private Room currentRoom;
-        public int health;
+        public int health = 100;
+        private Boolean isAlive;
         public Player() {
+
+            
+
+            {
+                if (health <= 0) {
+                    isAlive = false;
+                }
+            }
+
+            //Damage(amount);
+            //Heal(amount);
             
       
         }
