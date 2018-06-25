@@ -11,9 +11,11 @@ namespace ZuulCS
         private Room currentRoom;
         public int health = 100;
         private Boolean isAlive;
+
+
         public Player() {
 
-            
+
 
             {
                 if (health <= 0) {
@@ -23,15 +25,26 @@ namespace ZuulCS
 
             //Damage(amount);
             //Heal(amount);
-            
-      
+
+
+        }
+        void Damage(int amount)
+        {
+            amount = 10;
         }
 
-        public Room setCurrentRoom(Room room)
+
+        void Heal(int amount)
         {
+            amount = 15;
+        }
+     
+
+        public Room setCurrentRoom(Room room)
+         {
             this.currentRoom = room;
             return room;
-        }
+         }
         public Room getCurrentRoom()
         {
             return this.currentRoom;
