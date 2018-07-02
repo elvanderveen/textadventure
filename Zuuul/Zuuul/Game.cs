@@ -6,9 +6,8 @@ namespace ZuulCS
 	{
 		private Parser parser;
 		private Player player;  
-
-		public Game ()
-		{
+        
+		public Game () {
 			
 			parser = new Parser();
             player = new Player();
@@ -49,7 +48,7 @@ namespace ZuulCS
 	     *  Main play routine.  Loops until end of play.
 	     */
 		public void play()
-		{
+        {
 			printWelcome();
 
 			// Enter the main command loop.  Here we repeatedly read commands and
@@ -65,8 +64,8 @@ namespace ZuulCS
 		/**
 	     * Print out the opening message for the player.
 	     */
-		private void printWelcome()
-		{
+		private void printWelcome() {
+
 			Console.WriteLine();
 			Console.WriteLine("Welcome to Zuul!");
 			Console.WriteLine("Zuul is a new, incredibly boring adventure game.");
@@ -80,8 +79,8 @@ namespace ZuulCS
 	     * If this command ends the game, true is returned, otherwise false is
 	     * returned.
 	     */
-		private bool processCommand(Command command)
-		{
+		private bool processCommand(Command command) {
+
 			bool wantToQuit = false;
 
 			if(command.isUnknown()) {
@@ -115,8 +114,8 @@ namespace ZuulCS
 	     * Here we print some stupid, cryptic message and a list of the
 	     * command words.
 	     */
-		private void printHelp()
-		{
+		private void printHelp() {
+
 			Console.WriteLine("You are lost. You are alone.");
 			Console.WriteLine("You wander around at the university.");
 			Console.WriteLine();
