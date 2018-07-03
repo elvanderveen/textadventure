@@ -143,6 +143,7 @@ namespace ZuulCS
 			if (nextRoom == null) {
 				Console.WriteLine("There is no door to "+direction+"!");
 			} else {
+                player.Damage(10);
                 //currentRoom = nextRoom;
                 player.setCurrentRoom(nextRoom);
 				Console.WriteLine(player.getCurrentRoom().getLongDescription());

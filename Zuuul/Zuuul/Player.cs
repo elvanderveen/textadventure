@@ -9,38 +9,35 @@ namespace ZuulCS
     class Player
     {
         private Room currentRoom;
-        public int health = 100;
-        private Boolean isAlive;
+        private int health;
+        private Boolean alive;
 
 
         public Player() {
 
             //Damage(amount);
             //Heal(amount);
-
-              if (currentRoom = new Room ) {
-                 if new Room = true public int playerHealth = -2;
-
-              if (playerHealth <= 0 ) {
-                  return wantToQuit; 
-
+            this.currentRoom = null;
+            this.alive = true;
+            this.health = 100;
         }
 
+        public Boolean isAlive() {
+            return alive;
+        }
+
+        public void Damage(int amount) {
+            health = health - amount;
+            if (health <= 0)
             {
-                if (health <= 0) {
-                    isAlive = false;
-                }
+                alive = false;
             }
-
-
         }
-        void Damage(int amount) {
-            amount = 10;
-        }
+ 
 
 
-        void Heal(int amount) {
-            amount = 15;
+        public void Heal(int amount) {
+            health = health + amount;
         }
      
 
