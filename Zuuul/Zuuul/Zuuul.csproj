@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Banana.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="CommandLibrary.cs" />
     <Compile Include="Game.cs" />

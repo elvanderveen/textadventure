@@ -99,8 +99,12 @@ namespace ZuulCS
 					printHelp();
 					break;
 				case "go":
-					goRoom(command);
-					break;
+                        goRoom(command);
+                    if (player.Health <= 0 )
+                    {
+                        wantToQuit = true;
+                    }
+                    break;
 				case "quit":
 					wantToQuit = true;
 					break;
@@ -148,7 +152,10 @@ namespace ZuulCS
 			if (nextRoom == null) {
 				Console.WriteLine("There is no door to "+direction+"!");
 			} else {
+
                 player.Damage(10);
+               
+
                 //currentRoom = nextRoom;
                 player.setCurrentRoom(nextRoom);
 				Console.WriteLine(player.getCurrentRoom().getLongDescription());

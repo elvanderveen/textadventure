@@ -15,6 +15,7 @@ namespace ZuulCS
         internal Inventory Inventory {
             get => inventory;
         }
+        internal int Health { get => health; }
 
 
         public Player() {
